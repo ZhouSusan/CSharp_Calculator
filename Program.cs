@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-float num1 = 0;
-float num2 = 0;
+double num1 = 0;
+double num2 = 0;
 
 Console.WriteLine("Calulator\r");
 Console.WriteLine("--------------------------------\n");
@@ -8,12 +8,12 @@ Console.WriteLine("--------------------------------\n");
 
 //User's First number
 Console.WriteLine("Type a number, and then press Enter");
-num1 = Convert.ToInt32(Console.ReadLine());
+num1 = Convert.ToDouble(Console.ReadLine());
 
 
 //User's Second Number
 Console.WriteLine("Type another number, and then press Enter.");
-num2 = Convert.ToInt32(Console.ReadLine());
+num2 = Convert.ToDouble(Console.ReadLine());
 
 //User's option
 Console.WriteLine("Choose an option from the following list: ");
@@ -26,16 +26,16 @@ Console.Write("You have selected option: ");
 switch (Console.ReadLine())
 {
     case "a":
-        Console.WriteLine($"Result: {num1} + {num2} = " + (num1 + num2));
+        Console.WriteLine($"Result: {num1} + {num2} = " + Math.Round((num1 + num2), 2));
         break;
     case "s":
-        Console.WriteLine($"Result : {num1} - {num2} = " + (num1 - num2));
+        Console.WriteLine($"Result : {num1} - {num2} = " + Math.Round((num1 - num2), 2));
         break;
     case "m":
-        Console.WriteLine($"Result: {num1} * {num2} = " + (num1 * num2));
+        Console.WriteLine($"Result: {num1} * {num2} = " + Math.Round((num1 * num2), 2));
         break;
     case "d":
-        Console.WriteLine($"Result : {num1} / {num2} = " + (num1 / num2));
+        Console.WriteLine($"Result : {num1} / {num2} = " + Math.Round((num1 / num2), 2));
         break;
 }
 
