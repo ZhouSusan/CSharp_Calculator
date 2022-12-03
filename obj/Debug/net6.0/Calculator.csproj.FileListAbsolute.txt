@@ -12,3 +12,4 @@ C:\Users\szhou\source\repos\Calculator\Calculator\obj\Debug\net6.0\Calculator.dl
 C:\Users\szhou\source\repos\Calculator\Calculator\obj\Debug\net6.0\ref\Calculator.dll
 C:\Users\szhou\source\repos\Calculator\Calculator\obj\Debug\net6.0\Calculator.pdb
 C:\Users\szhou\source\repos\Calculator\Calculator\obj\Debug\net6.0\Calculator.genruntimeconfig.cache
+C:\Users\szhou\source\repos\Calculator\Calculator\obj\Debug\net6.0\Calculator.csproj.AssemblyReference.cache
