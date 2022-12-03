@@ -35,6 +35,13 @@ switch (Console.ReadLine())
         Console.WriteLine($"Result: {num1} * {num2} = " + Math.Round((num1 * num2), 2));
         break;
     case "d":
+
+        while (num2 == 0)
+        {
+            Console.WriteLine("Enter a non-sero divider: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+        } 
+
         Console.WriteLine($"Result : {num1} / {num2} = " + Math.Round((num1 / num2), 2));
         break;
 }
